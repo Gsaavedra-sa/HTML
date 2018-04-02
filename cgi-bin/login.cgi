@@ -8,7 +8,7 @@ senha=var.split("&")[1].split("=")[1]
 print("content-type: text/html")
 print("")
 
-if usuario == "heitor" and senha == "senai132":
+if usuario == "gabriel" and senha == "senai132":
     f = open("site/menu.html","r")
     menu = f.read()
     f.close()
